@@ -1,10 +1,6 @@
 from pydantic import BaseModel
 from typing import List, Optional
 
-class BiophysicalInput(BaseModel):
-  lat: float
-  lon: float
-
 class SoilData(BaseModel):
   clay: float
   sand: float
