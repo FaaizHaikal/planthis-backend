@@ -1,0 +1,233 @@
+,scientific_name,local_names.common,local_names.indonesian,altitude_min,altitude_max,temperature_min,temperature_max,rainfall_min,rainfall_max,ph_min,ph_max,chalky,clay,loamy,peat,rocky,sandy,silt,volcanic
+0,Acacia auriculiformis,Australian Wattle,Akasia Daun Lebar,0,1000,24,38,650,6000,4.3,9.0,0,1,1,0,0,1,0,0
+1,Acacia crassicarpa,Nothern Wattle,Akasia,0,450,15,22,500,3500,3.3,6.5,0,1,0,0,0,1,0,0
+2,Acacia glauca,Wild Dividi,Mlanding Sabrang,0,1200,10,38,200,500,3.0,6.5,0,0,0,0,0,1,0,0
+3,Acacia leptocarpa,North Coast Wattle,,10,550,10,33,350,1750,4.0,6.5,0,0,0,0,0,1,0,0
+4,Acacia leucophloea,White Barked Acacia,Pilang,0,800,6,49,400,1500,5.0,8.0,0,1,1,0,0,1,0,0
+5,Acacia mangium,Brown Salwood,Tongke Hutan,0,800,18,28,1500,3000,3.8,6.5,0,1,1,0,0,0,0,0
+6,Acrocarpus fraxinofolius,Mundani,Madang Pariek,0,1500,19,28,1500,2000,4.0,7.0,0,1,1,0,0,0,0,0
+7,Adansonia digitata,Baobab,Kaki Gajah,0,1500,20,30,100,1500,0.0,6.5,0,0,1,0,0,1,0,0
+8,Adenanthera pavonina,Saga,,300,400,12,36,3000,5000,5.5,7.5,0,0,1,0,0,0,0,0
+9,Aegle marmelos,Bael,Maja,0,1200,-6,48,570,2000,5.0,8.0,0,0,1,0,0,0,0,0
+10,Agathis philippinensis,Almaciga,Damar,150,2200,22,32,2500,5000,5.0,10.0,0,0,1,0,0,0,0,0
+11,Ailanthus altissima,Tree of Heaven,Pohon Surga,0,2000,10,20,2500,5000,5.5,8.0,1,1,1,0,0,1,0,0
+12,Ailanthus altissima,Siris,Sengon,0,1800,-1,43,1000,5000,5.5,8.0,0,0,1,0,0,0,0,0
+13,Albizia lebbeck,Kokko,Terisi,0,1800,19,35,500,2500,5.5,8.5,0,0,1,0,0,1,0,0
+14,Albizia procera,White Siris,Weru,0,1500,1,18,100,5000,5.5,7.5,0,1,1,0,0,1,0,0
+15,Albizia saman,Saman,Trembesi,0,1300,20,35,600,3000,4.6,7.5,0,1,1,0,0,1,0,0
+16,Aleurites moluccana,Tung,Kemiri,0,1200,18,28,650,4300,5.0,8.0,0,0,1,0,0,0,0,0
+17,Altingia excelsa,Kratuk,Rasamala,500,1500,20,32,100,5000,4.5,6.0,0,0,1,0,0,0,0,0
+18,Anacardium occidentale,Cashew Nut,Jambu Monyet,0,1000,17,38,500,3500,4.5,6.5,0,0,1,0,0,1,0,0
+19,Annona muricata,Soursop,Sirsak,0,1200,25,30,1000,5000,5.5,6.5,0,1,1,0,0,1,0,0
+20,Annona squamosa,Sugar Apple,Srikaya,0,2000,0,41,700,5000,5.5,8.0,0,0,1,0,0,1,0,0
+21,Antocephalus cadamba,Kalempayan,Jabon Putih,300,800,20,27,1000,4000,5.5,7.5,0,0,1,0,0,0,0,0
+22,Antiaris toxicaria,Upas,Ipuh,1350,1700,20,30,1200,2000,6.0,7.5,0,0,0,0,0,1,0,0
+23,Antidesma bunius,Bignai,Buni,0,1200,18,35,1200,3000,6.0,7.5,0,0,1,0,0,0,0,0
+24,Araucaria cunninghamii,Hoop Pine,Pien,0,1000,15,25,1900,4800,6.0,6.0,0,0,1,0,0,1,0,0
+25,Areca catechu,Pinang,Pinang,0,1000,14,36,750,4500,6.0,7.5,0,0,1,0,0,0,0,0
+26,Arenga pinnata,Sugar Palm,Aren,0,1400,20,30,1500,3000,5.0,7.5,0,0,1,0,0,1,0,0
+27,Artocarpus altilis,Breadfruit,Sukun,0,1500,16,38,1500,4000,6.0,7.5,0,0,1,0,0,1,0,0
+28,Artocarpus camansi,Breadnut,Kelur,0,1000,20,35,1500,3000,5.5,7.5,0,0,1,0,0,1,0,0
+29,Artocarpus heterophyllus,Jackfruit,Nangka,0,1600,16,38,1000,2400,5.0,7.5,0,0,1,0,0,1,0,0
+30,Artocarpus integer,Cempedak,Cempedak,0,1200,20,35,1500,3000,5.5,7.5,0,0,1,0,0,1,0,0
+31,Aucomea klaineana,Angouma,Angouma,0,800,20,30,1500,3000,5.5,7.0,0,0,1,0,0,1,0,0
+32,Averrhoa bilimbi,Bilimbi,Belimbing Wuluh,0,500,22,35,1500,2500,5.5,6.5,0,0,1,0,0,1,0,0
+33,Averrhoa carambola,Star Fruit,Belimbing,0,1000,20,35,1800,2500,5.5,6.5,0,0,1,0,0,1,0,0
+34,Azadirachta excelsa,Sentang,Sentang,0,800,20,35,1000,3000,5.0,7.5,0,0,1,0,0,1,0,0
+35,Azadirachta indica,Neem,Mimba,0,1500,10,40,500,1200,5.0,8.0,0,0,1,0,0,1,0,0
+36,Barringtonia racemosa,Powder-puff Tree,Putat,0,200,20,32,1500,5000,5.0,7.5,0,0,1,0,0,1,0,0
+37,Bauhinia purpurea,Purple Orchid Tree,Kupu-kupu,0,1500,15,35,1000,2500,6.0,7.5,0,0,1,0,0,1,0,0
+38,Bertholletia excelsa,Brazil Nut,Kacang Brazil,0,500,24,32,2000,3000,5.5,6.5,0,1,1,0,0,0,0,0
+39,Bischofia javanica,Bishop Wood,Gadog,0,1800,15,35,1000,4000,5.0,7.5,0,0,1,0,0,1,0,0
+40,Bixa orellana,Annatto,Kesumba,0,1500,20,35,1200,3000,5.5,7.0,0,0,1,0,0,1,0,0
+41,Broussonetia papyrifera,Paper Mulberry,Pohon Kertas,0,2000,10,35,1000,2500,5.0,7.5,0,0,1,0,0,1,0,0
+42,Bruguiera gymnorrhiza,Large-leafed Orange Mangrove,Tancang,0,10,20,30,1500,4000,6.0,8.0,0,1,0,0,0,0,1,0
+43,Butea monosperma,Flame of the Forest,Palasa,0,1200,10,40,500,2000,5.5,7.5,0,0,1,0,0,1,0,0
+44,Caesalpinia sappan,Sappanwood,Secang,0,1000,20,35,1000,2500,5.5,7.5,0,0,1,0,0,1,0,0
+45,Cajanus cajan,Pigeon Pea,Kacang Gude,0,2000,18,38,600,1000,5.0,7.5,0,0,1,0,0,1,0,0
+46,Calliandra calothyrsus,Calliandra,Kaliandra,0,2000,15,30,1000,3000,5.0,7.0,0,0,1,0,0,1,0,0
+47,Calophyllum inophyllum,Alexandrian Laurel,Nyamplung,0,300,20,32,1000,4000,5.0,8.0,0,0,1,0,0,1,0,0
+48,Cananga odorata,Ylang-Ylang,Kenanga,0,1000,20,30,1500,3000,5.5,7.5,0,0,1,0,0,1,0,0
+49,Canarium indicum,Canarium Nut,Kenari,0,800,22,32,2000,4000,5.5,7.0,0,0,1,0,0,1,0,0
+50,Canarium schweinfurthii,African Canarium,Kenari Afrika,0,1500,20,35,1000,3000,5.5,7.5,0,0,1,0,0,1,0,0
+51,Carapa guianensis,Crabwood,Andiroba,0,800,22,32,1500,3500,5.0,6.5,0,0,1,0,0,0,1,0
+52,Carica papaya,Papaya,Pepaya,0,1500,21,33,1000,2000,5.5,7.0,0,0,1,0,0,1,0,0
+53,Caryota urens,Toddy Palm,Aren,0,1500,18,32,1500,3000,5.5,7.5,0,0,1,0,0,1,0,0
+54,Cassia grandis,Pink Shower,Johar Merah,0,1200,20,35,800,2500,6.0,7.5,0,0,1,0,0,1,0,0
+55,Cassia javanica,Apple Blossom Shower,Trengguli Wanggang,0,1500,18,34,1000,3000,5.5,7.5,0,0,1,0,0,1,0,0
+56,Casuarina equisetifolia,Coastal She-oak,Cemara Laut,0,1000,10,35,500,4000,5.0,8.5,0,0,1,0,0,1,0,0
+57,Casuarina junghuhniana,Mountain Ru,Cemara Gunung,500,2500,10,28,1000,3000,5.5,7.5,0,0,1,0,0,1,0,0
+58,Casuarina oligodon,Hairy She-oak,Kilu,0,2000,15,30,1500,4000,5.5,7.0,0,0,1,0,0,1,0,0
+59,Cedrela odorata,Spanish Cedar,Cedrela,0,1800,18,32,1200,3000,5.5,7.5,0,0,1,0,0,1,0,0
+60,Cedrela serrata,Hill Toon,Surian Gunung,500,2000,15,28,1500,3500,5.5,7.0,0,0,1,0,0,1,0,0
+61,Ceiba pentandra,Kapok,Randu,0,1000,20,38,800,2500,5.0,7.5,0,0,1,0,0,1,0,0
+62,Ceratonia siliqua,Carob,Carob,0,1000,10,35,500,1000,6.0,8.5,0,0,1,0,0,1,0,0
+63,Chrysophyllum cainito,Star Apple,Sawo Duren,0,1000,20,35,1200,4000,5.5,7.5,0,0,1,0,0,1,0,0
+64,Chukrasia tabularis,Chickrassy,Suren,0,1500,18,38,1000,5000,5.0,7.5,0,0,1,0,0,1,0,0
+65,Cinchona pubescens,Quinine Tree,Kina,800,3000,10,25,1500,3500,4.5,6.5,0,0,1,0,0,1,0,0
+66,Cinnamomum verum,Cinnamon,Kayu Manis,0,1000,20,30,2000,4000,5.0,7.0,0,0,1,0,0,1,0,0
+67,Citrus bergamia,Bergamot Orange,Jeruk Bergamot,0,800,15,30,1000,2500,5.5,7.0,0,0,1,0,0,1,0,0
+68,Citrus maxima,Pomelo,Jeruk Bali,0,400,20,35,1500,3000,5.5,7.5,0,0,1,0,0,1,0,0
+69,Citrus sinensis,Sweet Orange,Jeruk Manis,0,1500,13,38,1000,2500,6.0,7.5,0,0,1,0,0,1,0,0
+70,Cocos nucifera,Coconut,Kelapa,0,600,20,32,1000,3000,5.0,8.0,0,0,1,0,0,1,0,0
+71,Coffea arabica,Arabica Coffee,Kopi Arabika,800,2000,15,24,1500,2500,5.0,6.5,0,0,1,0,0,0,0,1
+72,Cordia alliodora,Spanish Elm,Kayu Putih,0,1500,18,34,1000,3000,5.5,7.5,0,0,1,0,0,1,0,0
+73,Crotalaria juncea,Sunn Hemp,Orok-orok,0,1500,20,35,600,2500,5.0,8.5,0,0,1,0,0,1,0,0
+74,Crotalaria micans,Rattlepod,Orok-orik,0,1000,18,32,800,2000,5.5,7.5,0,0,1,0,0,1,0,0
+75,Cryptomeria japonica,Japanese Cedar,Sugi,500,2500,10,25,1000,3000,5.0,6.5,0,0,1,0,0,1,0,0
+76,Cyphomandra betacea,Tree Tomato,Terong Belanda,500,2500,15,25,1500,3000,5.5,7.0,0,0,1,0,0,1,0,0
+77,Dalbergia latifolia,Indian Rosewood,Sonokeling,0,1200,20,35,1000,2500,6.0,7.5,0,0,1,0,0,1,0,0
+78,Dalbergia sissoo,Sissoo,Jati Belanda,0,1500,10,40,500,2000,6.5,8.5,0,0,1,0,0,1,0,0
+79,Derris elliptica,Tuba Root,Akar Tuba,0,800,22,32,1500,4000,5.0,7.0,0,0,1,0,0,0,1,0
+80,Derris microphylla,Small-leaf Derris,Tuba Kecil,0,500,24,34,2000,4000,5.5,7.0,0,0,1,0,0,0,1,0
+81,Derris robusta,Robust Derris,Tuba Besar,0,1000,20,32,1500,3500,5.0,7.0,0,0,1,0,0,0,1,0
+82,Derris trifoliata,Three-leaf Derris,Tuba Tiga Daun,0,300,24,35,2000,5000,5.5,7.5,0,0,1,0,0,0,1,0
+83,Dichrostachys cinerea,Sicklebush,Aroma,0,2000,10,38,200,4000,5.0,8.5,0,1,1,0,0,1,0,0
+84,Diospyros ebenum,Ebony,Kayu Hitam,0,1000,20,35,1000,3000,5.5,7.5,0,0,1,0,0,1,0,0
+85,Diospyros kaki,Persimmon,Kesemek,0,1500,15,30,800,2000,6.0,7.5,0,0,1,0,0,1,0,0
+86,Dipterocarpus alatus,Resin Tree,Keruing,0,800,22,32,1500,4000,5.0,6.5,0,1,1,0,0,0,0,0
+87,Dipterocarpus grandiflorus,Apitong,Keruing Gajah,0,1000,20,35,2000,5000,4.5,6.5,0,0,1,0,0,1,0,0
+88,Dracontomelon dao,New Guinea Walnut,Dao,0,1200,20,34,1500,3500,5.5,7.0,0,0,1,0,0,1,0,0
+89,Durio zibethinus,Durian,Durian,0,800,24,32,1500,3000,5.0,6.5,0,0,1,0,0,1,0,0
+90,Elaeis guineensis,African Oil Palm,Kelapa Sawit,0,500,24,30,1500,4000,4.0,7.0,0,1,1,0,0,0,0,0
+91,Emblica officinalis,Indian Gooseberry,Malaka,0,1800,10,40,500,2000,6.0,8.0,0,0,1,0,0,1,0,0
+92,Endospermum malaccense,Sesendok,Sesendok,0,1000,22,34,1500,4000,5.0,7.0,0,0,1,0,0,1,0,0
+93,Eriobotrya japonica,Loquat,Lokat,0,1500,-5,35,800,2000,6.0,7.5,0,0,1,0,0,1,0,0
+94,Erythrina fusca,Purple Coraltree,Dadap Merah,0,800,18,38,1000,4000,5.0,8.0,0,1,1,0,0,0,0,0
+95,Erythrina poeppigiana,Mountain Immortelle,Dadap Besar,0,2000,15,35,1500,3500,5.5,7.5,0,0,1,0,0,1,0,0
+96,Erythrina variegata,Indian Coral Tree,Dadap Laut,0,1500,10,40,800,3000,5.0,8.5,0,0,1,0,0,1,0,0
+97,Eucalyptus camaldulensis,River Red Gum,Eukaliptus Merah,0,1200,-5,45,250,1500,4.5,8.0,0,1,1,0,0,0,0,0
+98,Eucalyptus deglupta,Rainbow Eucalyptus,Eukaliptus Pelangi,0,1800,18,32,1500,5000,5.0,7.5,0,0,1,0,0,0,0,1
+99,Eucalyptus maculata,Spotted Gum,Eukaliptus Tutul,0,1000,-3,38,600,1600,5.0,7.0,0,0,1,0,0,1,0,0
+100,Eucalyptus pellita,Large-fruited Red Mahogany,Eukaliptus Merah Besar,0,800,15,35,1000,3000,5.0,6.5,0,0,1,0,0,1,0,0
+101,Eucalyptus tereticornis,Forest Red Gum,Eukaliptus Merah Hutan,0,1500,-5,40,500,2000,5.0,8.0,0,1,1,0,0,0,0,0
+102,Eucalyptus urophylla,Timor White Gum,Eukaliptus Timor,0,3000,10,35,700,2500,5.5,7.0,0,0,1,0,0,0,0,1
+103,Euonymus japonicus,Japanese Spindle,Euonymus Jepang,0,1500,-10,35,600,2000,6.0,7.5,0,0,1,0,0,1,0,0
+104,Euphorbia tirucalli,Pencil Tree,Patah Tulang,0,2000,10,40,200,1500,6.0,8.5,0,0,0,0,1,1,0,0
+105,Fagraea racemosa,False Coffee Tree,Temu Lawak,0,500,22,32,1500,4000,5.5,7.0,0,0,1,0,0,1,0,0
+106,Feronia limonia,Wood Apple,Kawista,0,500,20,38,500,2000,5.5,8.0,0,0,1,0,0,1,0,0
+107,Ficus subcordata,Ficus,Ara,0,1000,18,35,1000,3000,5.5,7.5,0,0,1,0,0,1,0,0
+108,Flacourtia indica,Governor's Plum,Kawista Kecil,0,1500,15,38,800,2500,5.0,7.5,0,0,1,0,0,1,0,0
+109,Flemingia macrophylla,Flemingia,Kacang-kacangan,0,2000,15,35,1000,3500,4.5,7.5,0,1,1,0,0,0,0,0
+110,Garcinia mangostana,Mangosteen,Manggis,0,1000,25,35,1500,4000,5.0,6.5,0,0,1,0,0,1,0,0
+111,Gliricidia sepium,Madre de Cacao,Gamal,0,1600,15,38,800,3000,5.0,8.0,0,0,1,0,0,1,0,0
+112,Gmelina arborea,White Teak,Jati Putih,0,1200,18,38,750,4500,5.0,8.0,0,0,1,0,0,1,0,0
+113,Gnetum gnemon,Melinjo,Belinjo,0,1200,20,35,1500,4000,5.5,7.0,0,0,1,0,0,1,0,0
+114,Gonystylus bancanus,Ramin,Ramin,0,500,24,32,2000,4000,4.0,6.5,0,0,1,1,0,0,0,0
+115,Grevillea robusta,Silky Oak,Grevillea,0,2000,10,35,800,3000,5.0,7.5,0,0,1,0,0,1,0,0
+116,Guazuma ulmifolia,West Indian Elm,Jati Belanda,0,1500,18,38,600,2500,5.0,8.5,0,0,1,0,0,1,0,0
+117,Haematoxylum campechianum,Logwood,Kayu Campesi,0,500,20,35,1000,2500,6.0,8.0,0,0,1,0,0,1,0,0
+118,Hardwickia binata,Anjan,Anjan,0,1000,15,45,500,1500,6.5,8.5,0,0,0,0,1,1,0,0
+119,Hevea brasiliensis,Rubber Tree,Karet,0,800,24,34,1500,4000,4.5,6.5,0,0,1,0,0,1,0,0
+120,Hibiscus sabdariffa,Roselle,Rosella,0,1000,18,35,1000,2000,5.5,7.5,0,0,1,0,0,1,0,0
+121,Illicium verum,Star Anise,Bunga Lawang,200,1500,15,28,1500,3000,5.5,7.0,0,0,1,0,0,1,0,0
+122,Indigofera arrecta,Natal Indigo,Tarum,0,2000,15,35,800,2500,5.0,7.5,0,0,1,0,0,1,0,0
+123,Intsia bijuga,Merbau,Merbau,0,500,22,32,1500,5000,5.0,7.5,0,0,1,0,0,1,0,0
+124,Jatropha curcas,Physic Nut,Jarak Pagar,0,1500,18,40,300,3000,5.0,8.5,0,0,1,0,0,1,0,0
+125,Khaya ivorensis,African Mahogany,Mahoni Afrika,0,800,22,35,1200,4000,5.5,7.5,0,0,1,0,0,1,0,0
+126,Khaya senegalensis,Dry Zone Mahogany,Mahoni Kering,0,1500,15,40,500,1500,5.0,7.5,0,0,1,0,0,1,0,0
+127,Lawsonia inermis,Henna,Pacar,0,1200,15,45,300,2000,4.3,8.0,0,0,1,0,0,1,0,0
+128,Leucaena diversifolia,Wild Tamarind,Lamtoro Gunung,500,2500,10,30,1000,3000,5.0,7.5,0,0,1,0,0,0,0,1
+129,Leucaena leucocephala,Leadtree,Lamtoro,0,1500,15,35,650,3000,5.0,8.0,0,0,1,0,0,1,0,0
+130,Leucaena trichandra,Hairy Leadtree,Lamtoro Bulu,0,1800,12,35,800,2500,5.5,7.5,0,0,1,0,0,1,0,0
+131,Litchi chinensis,Lychee,Leci,0,1000,10,35,1200,2000,5.0,7.0,0,0,1,0,0,1,0,0
+132,Macadamia integrifolia,Macadamia Nut,Kacang Macadamia,0,800,15,30,1000,2500,5.0,6.5,0,0,1,0,0,0,0,1
+133,Macadamia tetraphylla,Rough-shell Macadamia,Macadamia Kasar,0,1000,10,28,1000,3000,5.0,6.5,0,0,1,0,0,0,0,1
+134,Macaranga tanarius,Parasol Leaf Tree,Mahang,0,1500,18,35,1500,4000,4.5,7.0,0,0,1,0,0,1,0,0
+135,Madhuca utilis,Bassia,Nyatoh,0,1000,20,35,1500,4000,5.0,7.0,0,0,1,0,0,1,0,0
+136,Maesopsis eminii,Umbrella Tree,Kayu Afrika,0,1800,18,32,1200,3500,5.5,7.5,0,0,1,0,0,1,0,0
+137,Mallotus philippensis,Kamala Tree,Kemala,0,1500,15,38,800,3000,5.0,7.5,0,0,1,0,0,1,0,0
+138,Malpighia glabra,Acerola,Ceremai Belanda,0,800,20,35,1000,2000,5.5,7.0,0,0,1,0,0,1,0,0
+139,Mangifera caesia,Binjai,Binjai,0,500,24,32,1500,3000,5.5,7.0,0,1,1,0,0,0,0,0
+140,Mangifera foetida,Horse Mango,Bacang,0,800,22,35,1500,4000,5.0,7.0,0,0,1,0,0,1,0,0
+141,Mangifera indica,Mango,Mangga,0,1200,15,38,800,2500,5.5,7.5,0,0,1,0,0,1,0,0
+142,Mangifera odorata,Kuini,Kuini,0,600,24,34,1500,3500,5.5,7.0,0,0,1,0,0,1,0,0
+143,Manilkara zapota,Sapodilla,Sawo,0,500,22,34,1000,2500,6.0,7.5,0,0,1,0,0,1,0,0
+144,Melaleuca alternifolia,Tea Tree,Pohon Teh,0,800,10,30,1000,2000,5.0,7.0,0,0,1,0,0,1,0,0
+145,Melaleuca quinquenervia,Paperbark,Kayu Putih,0,1000,15,35,800,3000,4.5,7.5,0,0,1,0,0,1,0,0
+146,Melia azedarach,Chinaberry,Mindi,0,2000,-5,40,500,2500,5.0,8.0,0,1,1,0,0,1,0,0
+147,Mesua ferrea,Ironwood,Nagasari,0,1500,18,35,1500,4000,5.5,7.5,0,0,1,0,0,1,0,0
+148,Metroxylon sagu,Sago Palm,Sagu,0,500,24,35,2000,5000,4.0,7.0,0,1,0,1,0,0,0,0
+149,Michelia champaca,Champak,Cempaka,0,2000,10,35,1200,3000,5.5,7.5,0,0,1,0,0,1,0,0
+150,Mimosa pigra,Giant Sensitive Plant,Putri Malu Besar,0,500,20,38,800,2500,4.5,8.0,0,1,0,0,0,0,1,0
+151,Morinda citrifolia,Noni,Mengkudu,0,500,20,35,1000,4000,5.0,8.5,0,0,0,0,1,1,0,0
+152,Moringa oleifera,Drumstick Tree,Kelor,0,1500,18,40,500,2000,5.0,9.0,0,0,1,0,0,1,0,0
+153,Morus alba,White Mulberry,Murbei Putih,0,2500,-20,38,600,2000,5.5,8.0,0,1,1,0,0,0,0,0
+154,Morus nigra,Black Mulberry,Murbei Hitam,0,1500,-10,35,800,1500,6.0,7.5,0,0,1,0,0,1,0,0
+155,Myristica fragrans,Nutmeg,Pala,0,700,20,30,1500,3500,5.5,7.0,0,0,1,0,0,0,0,1
+156,Nauclea orientalis,Leichhardt Tree,Bengkang,0,500,22,35,1500,4000,5.0,7.5,0,1,1,0,0,0,0,0
+157,Neobalanocarpus heimii,Chengal,Chengal,0,800,24,32,2000,4000,4.5,6.5,0,0,1,0,0,1,0,0
+158,Nephelium lappaceum,Rambutan,Rambutan,0,600,22,35,1500,3000,4.5,6.5,0,0,1,0,0,1,0,0
+159,Nephelium ramboutan-ake,Pulasan,Kapulasan,0,500,24,32,2000,3500,5.0,6.5,0,1,1,0,0,0,0,0
+160,Ocimum gratissimum,African Basil,Kemangi Hutan,0,1500,15,35,800,2500,5.5,7.5,0,0,1,0,0,1,0,0
+161,Orbignya phalerata,Babassu Palm,Palem Babasu,0,800,22,35,1500,2500,5.0,7.0,0,0,1,0,0,1,0,0
+162,Osyris lanceolata,African Sandalwood,Cendana Afrika,0,2000,10,35,500,1500,6.0,8.0,0,0,0,0,1,1,0,0
+163,Paraserianthes falcataria,Albizia,Sengon,0,1500,18,35,1500,4000,5.0,7.5,0,0,1,0,0,1,0,0
+164,Parkia speciosa,Stink Bean,Petai,0,1200,20,35,1500,3000,5.5,7.0,0,1,1,0,0,0,0,0
+165,Parkinsonia aculeata,Jerusalem Thorn,Parkinsonia,0,1500,10,40,200,1000,6.0,9.0,0,0,0,0,1,1,0,0
+166,Peltophorum dasyrhachis,Yellow Flame,Soga,0,500,22,35,1500,3000,5.5,7.5,0,0,1,0,0,1,0,0
+167,Peltophorum pterocarpum,Copperpod,Soga Perak,0,800,20,38,1000,3500,5.0,8.0,0,0,1,0,0,1,0,0
+168,Persea americana,Avocado,Alpukat,0,2500,12,32,800,2000,5.0,7.0,0,0,1,0,0,1,0,0
+169,Phyllanthus acidus,Star Gooseberry,Cermai,0,1000,18,35,1000,2500,5.5,7.5,0,0,1,0,0,1,0,0
+170,Phyllanthus reticulatus,Black-Honey Shrub,Meniran,0,1500,15,38,800,3000,5.0,8.0,0,0,1,0,0,1,0,0
+171,Piliostigma malabaricum,Malabar Fig,Kupang,0,800,20,38,1000,2500,5.5,7.5,0,0,1,0,0,1,0,0
+172,Pinus caribaea,Caribbean Pine,Pinus Karibia,0,1000,15,35,1000,3000,4.5,6.5,0,0,1,0,0,1,0,0
+173,Pinus kesiya,Khasi Pine,Pinus Khasi,800,2500,5,28,1000,2500,5.0,6.5,0,0,1,0,0,1,0,0
+174,Pinus merkusii,Merkus Pine,Pinus Merkus,0,2000,10,32,1000,3000,4.5,6.5,0,0,1,0,0,1,0,0
+175,Pinus patula,Mexican Weeping Pine,Pinus Meksiko,1500,3000,5,25,1000,2000,5.0,6.5,0,0,1,0,0,1,0,0
+176,Piper methysticum,Kava,Kava,0,800,20,35,1500,4000,5.5,7.0,0,0,1,0,0,0,0,1
+177,Pithecellobium dulce,Madras Thorn,Asam Londo,0,1500,15,40,500,2500,5.0,8.5,0,0,1,0,0,1,0,0
+178,Pometia pinnata,Fijian Longan,Matoa,0,1200,20,35,1500,4000,5.5,7.0,0,0,1,0,0,1,0,0
+179,Pongamia pinnata,Pongam,Mempari,0,1200,10,40,500,2500,5.0,8.5,0,0,1,0,0,1,0,0
+180,Prosopis juliflora,Mesquite,Kayu Babi,0,1500,10,45,200,1200,5.0,9.0,0,0,0,0,1,1,0,0
+181,Psidium guajava,Guava,Jambu Biji,0,1500,15,38,1000,3000,4.5,8.2,0,0,1,0,0,1,0,0
+182,Pterocarpus indicus,Narra,Angsana,0,800,20,35,1500,4000,5.0,7.5,0,0,1,0,0,1,0,0
+183,Pueraria montana,Kudzu,Kudzu,0,2000,-15,40,1000,2500,4.5,8.0,0,0,1,0,0,1,0,0
+184,Punica granatum,Pomegranate,Delima,0,1800,-10,40,500,1500,5.5,7.5,0,0,1,0,0,1,0,0
+185,Rhizophora mucronata,Red Mangrove,Bakau,0,10,20,32,1500,4000,5.0,8.0,0,1,0,0,0,0,1,0
+186,Sandoricum koetjape,Santol,Kecapi,0,800,22,35,1500,3500,5.5,7.0,0,0,1,0,0,1,0,0
+187,Santalum album,Indian Sandalwood,Cendana,600,1500,15,38,850,2500,6.0,7.5,0,0,0,0,1,1,0,0
+188,Santalum ellipticum,Coastal Sandalwood,Cendana Pantai,0,500,20,35,1000,3000,6.5,8.0,0,0,0,0,1,1,0,0
+189,Schefflera heptaphylla,Ivy Tree,Kayu Tujuh Daun,200,2000,10,30,1500,4000,5.0,7.0,0,0,1,0,0,1,0,0
+190,Schima wallichii,Needlewood,Puspa,500,2500,5,30,1500,3500,5.0,6.5,0,0,1,0,0,1,0,0
+191,Schizolobium parahybum,Brazilian Fern Tree,Jati Belanda,0,1200,18,35,1500,3000,5.5,7.0,0,0,1,0,0,1,0,0
+192,Senna didymobotrya,African Senna,Sena Afrika,0,2000,15,35,800,2000,5.0,8.0,0,0,1,0,0,1,0,0
+193,Senna siamea,Kassod Tree,Johar,0,1500,18,38,600,2500,5.0,8.5,0,0,1,0,0,1,0,0
+194,Sesbania grandiflora,Vegetable Hummingbird,Turis,0,800,20,38,1000,4000,5.0,8.5,0,1,1,0,0,0,0,0
+195,Sesbania rostrata,Stem Nodulating Sesbania,Sesbania Berbatang,0,500,22,35,1000,3000,5.5,8.0,0,1,1,0,0,0,0,0
+196,Sesbania sesban,Egyptian Sesban,Sesbania,0,2000,10,40,500,2000,5.0,8.5,0,0,1,0,0,1,0,0
+197,Shorea javanica,Meranti Jawa,Meranti Jawa,0,800,22,32,2000,4000,5.0,6.5,0,1,1,0,0,0,0,0
+198,Styphnolobium japonicum,Japanese Pagoda Tree,Pohon Pagoda,0,2000,-5,35,600,2500,5.0,8.0,0,0,1,0,0,1,0,0
+199,Spondias mombin,Yellow Mombin,Kedondong,0,1000,20,38,1000,3000,5.5,7.5,0,0,1,0,0,1,0,0
+200,Spondias purpurea,Purple Mombin,Kedondong Merah,0,1500,18,38,800,2500,5.0,8.5,0,0,1,0,0,1,0,0
+201,Sterculia foetida,Java Olive,Kepuh,0,500,24,35,1000,3000,5.5,7.5,0,0,1,0,0,1,0,0
+202,Swietenia macrophylla,Big-leaf Mahogany,Mahoni Daun Lebar,0,1200,18,35,1500,4000,5.0,7.5,0,0,1,0,0,1,0,0
+203,Swietenia mahagoni,West Indian Mahogany,Mahoni,0,800,20,35,1200,3000,5.5,7.0,0,0,1,0,0,1,0,0
+204,Syzygium aromaticum,Clove,Cengkeh,0,900,22,32,1500,3500,5.0,6.5,0,0,1,0,0,0,0,1
+205,Syzygium cumini,Java Plum,Jamblang,0,1800,10,38,1000,3000,5.5,8.0,0,0,1,0,0,1,0,0
+206,Syzygium jambos,Rose Apple,Jambu Mawar,0,1200,18,35,1200,2500,5.0,7.5,0,0,1,0,0,1,0,0
+207,Syzygium malaccense,Malay Apple,Jambu Bol,0,800,22,35,1500,4000,5.5,7.0,0,0,1,0,0,1,0,0
+208,Syzygium samarangense,Wax Apple,Jambu Air,0,500,24,35,1500,3000,5.5,7.0,0,0,1,0,0,1,0,0
+209,Tamarindus indica,Tamarind,Asam Jawa,0,1500,15,40,500,2500,4.5,9.0,0,0,1,0,0,1,0,0
+210,Tectona grandis,Teak,Jati,0,1200,18,43,800,2500,6.0,8.0,0,0,1,0,0,1,0,0
+211,Tephrosia candida,White Tephrosia,Tefrosia Putih,0,2000,15,35,800,2500,5.0,7.5,0,0,1,0,0,1,0,0
+212,Tephrosia purpurea,Wild Indigo,Tefrosia Ungu,0,1500,18,38,500,2000,5.5,8.0,0,0,0,0,1,1,0,0
+213,Tephrosia villosa,Hairy Tephrosia,Tefrosia Berbulu,0,1000,20,35,600,1800,5.0,7.0,0,0,1,0,0,1,0,0
+214,Tephrosia vogelii,Fish Poison Bean,Tefrosia Vogel,0,2000,15,35,800,2500,5.0,7.5,0,0,1,0,0,1,0,0
+215,Terminalia alata,Indian Laurel,Ketapang India,0,1500,15,40,800,3000,5.5,8.0,0,0,1,0,0,1,0,0
+216,Terminalia arjuna,Arjuna,Pohon Arjuna,0,1200,20,45,500,1500,6.0,8.5,0,0,1,0,0,1,0,0
+217,Terminalia bellirica,Beleric,Kepuh,0,1000,18,38,1000,3000,5.5,7.5,0,0,1,0,0,1,0,0
+218,Terminalia catappa,Indian Almond,Ketapang,0,800,20,35,1000,3500,5.0,8.0,0,0,1,0,0,1,0,0
+219,Terminalia superba,Limba,Ketapang Besar,0,1000,20,35,1200,2500,5.5,7.0,0,0,1,0,0,1,0,0
+220,Theobroma cacao,Cocoa Tree,Kakao,0,900,18,32,1250,3000,6.0,7.5,0,0,1,0,0,0,0,1
+221,Thespesia populnea,Portia Tree,Baru Laut,0,275,20,35,500,1600,6.0,7.4,0,0,1,0,0,1,0,0
+222,Tithonia diversifolia,Mexican Sunflower,Tanaman Pagar,0,2000,15,35,800,2500,5.0,7.5,0,0,1,0,0,1,0,0
+223,Toona ciliata,Red Cedar,Suren,0,1800,10,35,1000,3500,5.5,7.0,0,0,1,0,0,1,0,0
+224,Toona sureni,Suren Toona,Suren Jawa,0,1500,15,32,1500,3000,5.5,7.0,0,0,1,0,0,0,0,1
+225,Trema orientalis,Charcoal Tree,Anggrung,0,2000,15,38,800,3000,5.0,7.5,0,0,1,0,0,1,0,0
+226,Vitex altissima,Peacock Chaste Tree,Laban,0,1200,20,35,1000,2500,6.0,7.5,0,0,1,0,0,1,0,0
+227,Vitex cofassus,New Guinea Teak,Kayu Besi,0,800,22,32,1500,4000,5.5,7.0,0,1,1,0,0,0,0,0
+228,Vitex parviflora,Smallflower Chaste Tree,Laban Kecil,0,500,24,35,1200,2500,6.0,7.5,0,0,1,0,0,1,0,0
+229,Vitex pubescens,Hairy Chaste Tree,Laban Berbulu,0,1000,20,35,1500,3000,5.5,7.0,0,0,1,0,0,1,0,0
+230,Vitex trifolia,Simpleleaf Chaste Tree,Legundi,0,500,22,35,1000,2500,6.0,8.0,0,0,0,0,1,1,0,0
+231,Ziziphus mauritiana,Indian Jujube,Bidara,0,1500,10,40,500,2000,5.0,8.5,0,0,1,0,0,1,0,0
