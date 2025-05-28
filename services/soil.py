@@ -1,6 +1,7 @@
 import requests
 from config import SOILGRIDS_URL, PEAT_SOC_THRESHOLD, CHALKY_PH_THRESHOLD
 from models import SoilData
+from typing import List
 
 def get_soil_data(lat: float, lon: float) -> SoilData:
   """Fetch soil properties from SoilGrids."""
@@ -11,7 +12,7 @@ def get_soil_data(lat: float, lon: float) -> SoilData:
       "property": ["clay", "sand", "silt", "phh2o", "soc"],
       "depth": "0-5cm"
     }
-    response = requests.get(SOILGRIDS_URL, params=params, timeout=10)
+    response = requests.get(SOILGRIDS_URL, params=params, timeout=30)
     response.raise_for_status()
     props = response.json()["properties"]
     
