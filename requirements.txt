@@ -1,0 +1,8 @@
+pandas
+fastapi
+requests
+typing
+pydantic
+pathlib
+uvicorn
+gunicorn
