@@ -15,12 +15,12 @@ app.add_middleware(
   allow_headers=["*"],
 )
 
-@app.get("/biophysical", response_model=SpeciesMatchResult)
+@app.get("/species", response_model=SpeciesMatchResult)
 async def get_biophysical(lat: float, lon: float):
   try:
+    soil = get_soil_data(lat, lon)
     elevation = get_elevation(lat, lon)
     climate = get_climate(lat, lon)
-    soil = get_soil_data(lat, lon)
       
     matches = species_matcher.find_matches({
       "altitude": elevation,
