@@ -10,18 +10,23 @@ class SpeciesMatcher:
     """Find species matching biophysical conditions."""
     matches = []
     for _, row in self.df.iterrows():
-      if all([
-        conditions["altitude"] >= row["altitude_min"],
-        conditions["altitude"] <= row["altitude_max"],
-        conditions["temperature"] >= row["temperature_min"],
-        conditions["temperature"] <= row["temperature_max"],
-        conditions["rainfall"] >= row["rainfall_min"],
-        conditions["rainfall"] <= row["rainfall_max"],
-        conditions["ph"] >= row["ph_min"],
-        conditions["ph"] <= row["ph_max"],
-        any(soil in row["soil_types"].split(",") for soil in conditions["soil_type"])
-      ]):
-        matches.append(row["scientific_name"])
+      soil_types = ([conditions["soil_type"]] if isinstance(conditions["soil_type"], str)
+                     else conditions["soil_type"])
+        
+      mask = (
+            (self.df["altitude_min"] <= conditions["altitude"]) &
+            (self.df["altitude_max"] >= conditions["altitude"]) &
+            (self.df["temperature_min"] <= conditions["temperature"]) &
+            (self.df["temperature_max"] >= conditions["temperature"]) &
+            (self.df["rainfall_min"] <= conditions["rainfall"]) &
+            (self.df["rainfall_max"] >= conditions["rainfall"]) &
+            (self.df["ph_min"] <= conditions["ph"]) &
+            (self.df["ph_max"] >= conditions["ph"]) &
+            (self.df[soil_types].eq(1).any(axis=1))  # Check any soil match
+      )
+      
+      return self.df.loc[mask, "scientific_name"].tolist()
+      
     return matches
 
 species_matcher = SpeciesMatcher()  # Singleton instance
