@@ -16,22 +16,36 @@ def get_soil_data(lat: float, lon: float) -> SoilData:
     response.raise_for_status()
     props = response.json()["properties"]
     
+    layers = extract_layers(props)
+    
     return SoilData(
-      clay=props["clay"]["mean"] / 10,
-      sand=props["sand"]["mean"] / 10,
-      silt=props["silt"]["mean"] / 10,
-      ph=props["phh2o"]["mean"] / 10,
-      soc=props["soc"]["mean"] * 0.1,
+      clay=layers["clay"],
+      sand=layers["sand"],
+      silt=layers["silt"],
+      ph=layers["phh2o"],
+      soc=layers["soc"],
       types=classify_soil(
-        clay=props["clay"]["mean"] / 10,
-        sand=props["sand"]["mean"] / 10,
-        silt=props["silt"]["mean"] / 10,
-        ph=props["phh2o"]["mean"] / 10,
-        soc=props["soc"]["mean"] * 0.1
+        clay=layers["clay"],
+        sand=layers["sand"],
+        silt=layers["silt"],
+        ph=layers["phh2o"],
+        soc=layers["soc"]
       )
     )
   except Exception as e:
     raise ValueError(f"Soil API error: {str(e)}")
+
+def extract_layers(props: dict) -> dict:
+  """Extract and normalize soil properties from SoilGrids API response"""
+  properties = {}
+  for layer in props["layers"]:
+    name = layer["name"]
+    value = layer["depths"][0]["values"]["mean"]
+    d_factor = layer["unit_measure"]["d_factor"]
+    
+    properties[name] = value / d_factor
+  
+  return properties
 
 def classify_soil(clay: float, sand: float, silt: float, ph: float, soc: float) -> List[str]:
   """Classify soil into types using USDA texture triangle and special cases."""
