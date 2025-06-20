@@ -4,6 +4,7 @@ from models import SpeciesMatchResult
 from services.climate import get_elevation, get_climate
 from services.soil import get_soil_data
 from services.species import species_matcher
+from services.dummy import get_dummy_response
 
 app = FastAPI()
 
@@ -36,6 +37,15 @@ async def get_biophysical(lat: float, lon: float):
       matching_species=matches
     )
 
+  except ValueError as e:
+    raise HTTPException(status_code=400, detail=str(e))
+  except Exception as e:
+    raise HTTPException(status_code=500, detail="Internal server error")
+  
+@app.get("/dummy", response_model=SpeciesMatchResult)
+async def get_dummy_data():
+  try:
+    return get_dummy_response()
   except ValueError as e:
     raise HTTPException(status_code=400, detail=str(e))
   except Exception as e:

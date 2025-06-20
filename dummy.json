@@ -1,0 +1,29 @@
+{
+    "altitude": 8,
+    "climate": {
+        "temperature": 26.762841530054647,
+        "rainfall": 4365.1
+    },
+    "soil": {
+        "clay": 35,
+        "sand": 26.5,
+        "silt": 38.5,
+        "ph": 5.1,
+        "soc": 234.8,
+        "types": [
+            "clay",
+            "loamy",
+            "peat"
+        ]
+    },
+    "matching_species": [
+        "Acacia auriculiformis",
+        "Barringtonia racemosa",
+        "Chukrasia tabularis",
+        "Dipterocarpus grandiflorus",
+        "Eucalyptus deglupta",
+        "Gmelina arborea",
+        "Intsia bijuga",
+        "Metroxylon sagu"
+    ]
+}
