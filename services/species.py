@@ -1,6 +1,7 @@
 import pandas as pd
 from config import PLANTS_CSV
 from typing import Dict, List
+from models import TreeDetail
 
 class SpeciesMatcher:
   def __init__(self):
@@ -28,5 +29,17 @@ class SpeciesMatcher:
       return self.df.loc[mask, "scientific_name"].tolist()
       
     return matches
+  
+  def get_tree_details(self, species_names: List[str]) -> List[TreeDetail]:
+    filtered = self.df[self.df["scientific_name"].isin(species_names)]
+
+    return [
+      TreeDetail(
+        scientific_name=row["scientific_name"],
+        common_name=row.get("local_names.common"),
+        indonesian_name=row.get("local_names.indonesian")
+      )
+      for _, row in filtered.iterrows()
+    ]
 
 species_matcher = SpeciesMatcher()  # Singleton instance

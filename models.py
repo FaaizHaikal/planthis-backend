@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 
 class SoilData(BaseModel):
   clay: float
@@ -18,3 +18,8 @@ class SpeciesMatchResult(BaseModel):
   climate: ClimateData
   soil: SoilData
   matching_species: List[str]
+  
+class TreeDetail(BaseModel):
+    scientific_name: str
+    common_name: Optional[str]
+    indonesian_name: Optional[str]
