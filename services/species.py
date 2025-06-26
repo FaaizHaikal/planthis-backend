@@ -1,20 +1,22 @@
 import pandas as pd
 from config import PLANTS_CSV
 from typing import Dict, List
-from models import TreeDetail
+from models import Tree
 
 class SpeciesMatcher:
-  def __init__(self):
-    self.df = pd.read_csv(PLANTS_CSV)
-  
-  def find_matches(self, conditions: Dict) -> List[str]:
-    """Find species matching biophysical conditions."""
-    matches = []
-    for _, row in self.df.iterrows():
-      soil_types = ([conditions["soil_type"]] if isinstance(conditions["soil_type"], str)
-                     else conditions["soil_type"])
+    def __init__(self):
+        self.df = pd.read_csv(PLANTS_CSV)
+
+    # DIUBAH: Tipe data yang dikembalikan sekarang adalah List[Dict]
+    def find_matches(self, conditions: Dict) -> List[Dict]:
+        """Find species matching biophysical conditions."""
         
-      mask = (
+        # Logika untuk menangani tipe data tanah tetap sama
+        soil_types = ([conditions["soil_type"]] if isinstance(conditions["soil_type"], str)
+                      else conditions["soil_type"])
+        
+        # Logika untuk membuat filter (mask) tetap sama
+        mask = (
             (self.df["altitude_min"] <= conditions["altitude"]) &
             (self.df["altitude_max"] >= conditions["altitude"]) &
             (self.df["temperature_min"] <= conditions["temperature"]) &
@@ -23,23 +25,34 @@ class SpeciesMatcher:
             (self.df["rainfall_max"] >= conditions["rainfall"]) &
             (self.df["ph_min"] <= conditions["ph"]) &
             (self.df["ph_max"] >= conditions["ph"]) &
-            (self.df[soil_types].eq(1).any(axis=1))  # Check any soil match
-      )
-      
-      return self.df.loc[mask, "scientific_name"].tolist()
-      
-    return matches
+            (self.df[soil_types].eq(1).any(axis=1))
+        )
+        
+        # --- PERUBAHAN UTAMA ADA DI SINI ---
+        
+        # 1. Pilih kolom yang relevan (nama ilmiah, nama umum, nama indonesia)
+        matched_df = self.df.loc[mask, ["scientific_name", "local_names.common", "local_names.indonesian"]]
+        
+        # 2. Ganti nama kolom agar cocok dengan model Pydantic 'Tree' di models.py
+        matched_df = matched_df.rename(columns={
+            "local_names.common": "common_name",
+            "local_names.indonesian": "indonesian_name"
+        })
+        
+        # 3. Konversi DataFrame yang sudah difilter menjadi daftar dictionary
+        #    Ini adalah format yang bisa langsung dikirim sebagai JSON oleh FastAPI
+        return matched_df.to_dict('records')
   
-  def get_tree_details(self, species_names: List[str]) -> List[TreeDetail]:
-    filtered = self.df[self.df["scientific_name"].isin(species_names)]
+    def get_tree_details(self, species_names: List[str]) -> List[Tree]:
+      filtered = self.df[self.df["scientific_name"].isin(species_names)]
 
-    return [
-      TreeDetail(
-        scientific_name=row["scientific_name"],
-        common_name=row.get("local_names.common"),
-        indonesian_name=row.get("local_names.indonesian")
-      )
-      for _, row in filtered.iterrows()
-    ]
+      return [
+        Tree(
+          scientific_name=row["scientific_name"],
+          common_name=row.get("local_names.common"),
+          indonesian_name=row.get("local_names.indonesian")
+        )
+        for _, row in filtered.iterrows()
+      ]
 
-species_matcher = SpeciesMatcher()  # Singleton instance
+species_matcher = SpeciesMatcher() # Singleton instance

@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from models import SpeciesMatchResult
 from typing import List
-from models import TreeDetail
+from models import Tree
 from services.climate import get_elevation, get_climate
 from services.soil import get_soil_data
 from services.species import species_matcher
@@ -44,7 +44,7 @@ async def get_biophysical(lat: float, lon: float):
   except Exception as e:
     raise HTTPException(status_code=500, detail="Internal server error")
 
-@app.get("/tree-info", response_model=List[TreeDetail])
+@app.get("/tree-info", response_model=List[Tree])
 async def get_tree_info(species: List[str] = Query(...)):
     try:
         return species_matcher.get_tree_details(species)
@@ -54,6 +54,7 @@ async def get_tree_info(species: List[str] = Query(...)):
 @app.get("/dummy-species", response_model=SpeciesMatchResult)
 async def get_dummy_data():
   try:
+    print('getting dummy')
     return get_dummy_response()
   except ValueError as e:
     raise HTTPException(status_code=400, detail=str(e))
