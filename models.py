@@ -23,8 +23,3 @@ class SpeciesMatchResult(BaseModel):
   climate: ClimateData
   soil: SoilData
   matching_species: List[Tree]
-  
-class TreeDetail(BaseModel):
-    scientific_name: str
-    common_name: Optional[str]
-    indonesian_name: Optional[str]
