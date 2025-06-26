@@ -1,7 +1,7 @@
 import pandas as pd
 from config import PLANTS_CSV
 from typing import Dict, List
-from models import TreeDetail
+from models import Tree
 
 class SpeciesMatcher:
     def __init__(self):
@@ -43,11 +43,11 @@ class SpeciesMatcher:
         #    Ini adalah format yang bisa langsung dikirim sebagai JSON oleh FastAPI
         return matched_df.to_dict('records')
   
-    def get_tree_details(self, species_names: List[str]) -> List[TreeDetail]:
+    def get_tree_details(self, species_names: List[str]) -> List[Tree]:
       filtered = self.df[self.df["scientific_name"].isin(species_names)]
 
       return [
-        TreeDetail(
+        Tree(
           scientific_name=row["scientific_name"],
           common_name=row.get("local_names.common"),
           indonesian_name=row.get("local_names.indonesian")
