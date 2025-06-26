@@ -1,5 +1,10 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
+
+class Tree(BaseModel):
+    scientific_name: str
+    common_name: Optional[str] = None
+    indonesian_name: Optional[str] = None
 
 class SoilData(BaseModel):
   clay: float
@@ -17,4 +22,4 @@ class SpeciesMatchResult(BaseModel):
   altitude: float
   climate: ClimateData
   soil: SoilData
-  matching_species: List[str]
+  matching_species: List[Tree]
